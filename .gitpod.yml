@@ -1,7 +1,0 @@
-image:
-  file: .gitpod.Dockerfile
-
-tasks:
-  - name: Setup
-    init: cmake -S . -B build
-    command: cd build && make
